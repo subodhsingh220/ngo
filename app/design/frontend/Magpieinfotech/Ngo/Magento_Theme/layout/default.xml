@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page layout="3columns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+   
+    <body>
+		<referenceContainer name="header.panel">
+			<container name="contacts" htmlTag="div" after="-">
+				<block class="Magento\Cms\Block\Block" name="header-contacts">
+					<arguments>
+						<argument name="block_id" xsi:type="string">header-top</argument>
+					</arguments>
+				</block>
+			</container>
+		</referenceContainer>
+	
+		<block class="Magento\Cms\Block\Block" name="footer-section-ngo">
+			<arguments>
+				<argument name="block_id" xsi:type="string">footer-section</argument>
+			</arguments>
+		</block>
+		<move element="footer-section-ngo" destination="footer" before="copyright"/>
+       	<referenceBlock name="report.bugs" remove="true"/>
+       	<referenceBlock name="footer_links" remove="true"/>
+       	<referenceBlock name="store_switcher" remove="true"/>
+    </body>
+</page>
