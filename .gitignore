@@ -1,3 +1,7 @@
+.giignore
+/pub/errors/local.xml.sample
+/app/etc/config.php
+/app/etc/vendor_path.php
 /.buildpath
 /.cache
 /.metadata

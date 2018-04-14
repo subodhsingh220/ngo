@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Magpieinfotech_Volunteers::parent" title="Volunteers" module="Magpieinfotech_Volunteers" sortOrder="100" resource="Magpieinfotech_Volunteers::parent"/>
+		<add id="Magpieinfotech_Volunteers::volunteers" title="Magpieinfotech Volunteers" module="Magpieinfotech_Volunteers" sortOrder="20" parent="Magpieinfotech_Volunteers::parent" action="volunteers/volunteers" resource="Magpieinfotech_Volunteers::volunteers"/>
+
+    </menu>
+</config>
