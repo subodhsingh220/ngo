@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Magpieinfotech_Gallery::parent" title="Gallery" module="Magpieinfotech_Gallery" sortOrder="100" resource="Magpieinfotech_Gallery::parent"/>
+		<add id="Magpieinfotech_Gallery::gallery" title="Magpieinfotech Gallery" module="Magpieinfotech_Gallery" sortOrder="20" parent="Magpieinfotech_Gallery::parent" action="gallery/gallery" resource="Magpieinfotech_Gallery::gallery"/>
+
+    </menu>
+</config>
