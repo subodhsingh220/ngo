@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Magpieinfotech_Campaign::parent" title="Campaign" module="Magpieinfotech_Campaign" sortOrder="100" resource="Magpieinfotech_Campaign::parent"/>
+		<add id="Magpieinfotech_Campaign::campaign" title="Magpieinfotech Campaign" module="Magpieinfotech_Campaign" sortOrder="20" parent="Magpieinfotech_Campaign::parent" action="campaign/campaign" resource="Magpieinfotech_Campaign::campaign"/>
+
+    </menu>
+</config>
